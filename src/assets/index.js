@@ -20,15 +20,23 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vuejs from "./tech/vuejs.png";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import vortex from "./company/vortex.png";
+import webwork from "./company/web.png";
+import masy from "./company/masydase.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import eshop from "./eshop.jpg";
+import cocktail from "./cocktail.png";
+import port from "./port.png";
 
 export {
   logo,
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  vuejs,
+  vortex,
+  webwork,
+  masy,
+  eshop,
+  cocktail,
+  port,
+  nextjs,
 };

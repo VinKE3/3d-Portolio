@@ -13,16 +13,15 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  eshop,
+  cocktail,
+  port,
+  nextjs,
   threejs,
+  vuejs,
+  vortex,
+  webwork,
+  masy,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ui/Ux Designer",
     icon: creator,
   },
 ];
@@ -85,6 +84,14 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "vuejs",
+    icon: vuejs,
+  },
+  {
+    name: "Next Js",
+    icon: nextjs,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -104,67 +111,69 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Independent Web Developer",
+    company_name: "Freelancer",
+    icon: webwork,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with clients to understand their requirements and business goals, translating their ideas into functional and appealing web applications.",
+      "Developed web applications using frameworks and other relevant tools, tailoring technological solutions to the unique needs of each project.",
+      "Implemented responsive designs to ensure optimal performance across various devices and screen sizes.",
+      "Effectively managed my time and tasks, maintaining clear communication with clients to ensure timely and successful project delivery.",
+      "Offered technical guidance to clients, suggesting solutions and approaches that enhanced the functionality and performance of their web applications.",
+      "Maintained an organized workflow by utilizing project management tools and platforms that facilitated collaboration and progress tracking.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React.js Developer",
+    company_name: "Vortex",
+    icon: vortex,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development and maintenance of cutting-edge web applications using React.js and complementary technologies, contributing to Tesla's digital innovation.",
+      "Collaborated seamlessly with cross-functional teams, including designers, product managers, and fellow developers, to craft exceptional products that aligned with Tesla's visionary goals.",
+      "Drove user-centric design by implementing responsive layouts and optimizing cross-browser compatibility, resulting in a consistently remarkable user experience across various devices.",
+      "Played a pivotal role in fostering code quality and collaboration by actively participating in rigorous code reviews, offering insightful feedback to peers and promoting best practices.",
+      "Demonstrated a keen eye for detail in refining UI/UX designs, ensuring that the final products not only met technical standards but also met Tesla's premium aesthetic and usability standards.",
+      "Proactively sought out opportunities to optimize performance, analyzing and fine-tuning critical aspects of applications to achieve enhanced speed and responsiveness.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer",
+    company_name: "MasyDase",
+    icon: masy,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - January 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected and developed robust RESTful APIs and backend services, leveraging technologies such as Node.js, Express, and MongoDB, to support seamless functionality of web applications.",
+      "Collaborated closely with cross-functional teams, including frontend developers, designers, and product managers, to design API endpoints and data structures that facilitated efficient communication between frontend and backend systems.",
+      "Ensured data security and integrity by implementing authentication and authorization mechanisms, safeguarding sensitive user information and preventing unauthorized access.",
+      "Optimized database queries and data retrieval processes to enhance application performance and reduce response times, resulting in an improved user experience.",
+      "Participated actively in code reviews, offering valuable insights and feedback on backend code quality, scalability, and maintainability to ensure the delivery of high-quality software.",
+      "Contributed to the design and implementation of scalable backend architectures that accommodated growing user demands and allowed for seamless integration of new features.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer",
+    company_name: "MasyDase",
+    icon: masy,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "January 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed end-to-end features for web applications, utilizing a diverse tech stack including React.js, Node.js, and databases like MongoDB, to ensure seamless functionality and an exceptional user experience.",
+      "Collaborated closely with cross-functional teams to gather requirements, provide technical insights, and create innovative solutions that aligned with project goals and user needs.",
+      "Implemented responsive and user-friendly interfaces by leveraging frontend frameworks and libraries, contributing to the creation of engaging and visually appealing user interfaces.",
+      "Built and maintained RESTful APIs and backend services, ensuring robust data flow, system efficiency, and effective communication between frontend and backend components.",
+      "Took a proactive role in performance optimization, identifying and addressing bottlenecks, reducing load times, and enhancing the overall application responsiveness.",
+      "Engaged in continuous learning to stay updated with emerging technologies and industry best practices, integrating new tools and techniques into projects to maintain a competitive edge.",
+      "Participated actively in code reviews, offering valuable feedback on both frontend and backend code quality, security measures, and architecture design to uphold software integrity.",
+      "Contributed to problem-solving and debugging efforts, swiftly addressing issues to maintain smooth functionality and resolve technical challenges across the entire application stack.",
     ],
   },
 ];
@@ -198,12 +207,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-Commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "E-commerce website that enables users to browse products, add them to their cart, and checkout using Stripe.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -215,49 +224,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: eshop,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Cocktail Finder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application that allows users to search for cocktail recipes and filter them by name, ingredient, or category.",
     tags: [
       {
-        name: "react",
+        name: "restapi",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "vuejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cocktail,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A portfolio website template that allows users to showcase their projects and skills and share their contact information",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "motion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tawilwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: port,
     source_code_link: "https://github.com/",
   },
 ];
